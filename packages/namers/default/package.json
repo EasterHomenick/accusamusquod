@@ -1,0 +1,21 @@
+{
+  "name": "@parcel/namer-default",
+  "version": "2.0.0-alpha.3",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parcel-bundler/parcel.git"
+  },
+  "main": "lib/DefaultNamer.js",
+  "source": "src/DefaultNamer.js",
+  "engines": {
+    "parcel": "^2.0.0-alpha.1.1"
+  },
+  "dependencies": {
+    "@parcel/plugin": "^2.0.0-alpha.3",
+    "nullthrows": "^1.1.1"
+  }
+}
